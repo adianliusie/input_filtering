@@ -14,7 +14,7 @@ python run_train.py --path trained_models/EXP-NAME/seed-1 --dataset imdb --filte
 - ```--dataset``` sets the data to train the model on. classification datasets must be interfaced in ```src/data/handler.py```
 - ```--filters``` sets the filtering process for the inputs. ```NV``` relates to only keeping nouns and verbs- other options can be found in ```src/data/word_filter.py```
 - ```--transformer``` sets the base pre-trained transformer to initialise model weights with. interfaced transformers can be found in ```src/models/pre_trained_trans.py```
-- other training arguments can be used/modified, look into run_train.py to see which arguments are available.
+- other training arguments can be used/modified, look into train.py to see which arguments are available.
 
 ### Training sequence to sequence Model
 ```
